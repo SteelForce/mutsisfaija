@@ -1,0 +1,14 @@
+{
+  "name": "tonttubot",
+  "version": "1.0.0",
+  "description": "tonttu monttu botti",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oscar Stenvall",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
