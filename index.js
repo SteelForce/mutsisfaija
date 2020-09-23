@@ -34,6 +34,8 @@ client.on('message', message =>{
 
     } else if (command == 'tonttufeedaa'){
         client.commands.get('tonttufeedaa').execute(message, args);
+    } else if (command == 'tonttuhelp'){
+        client.commands.get('tonttuhelp').execute(message, args);
     }
 });
 client.login(config.token);
